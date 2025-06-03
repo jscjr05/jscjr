@@ -18,6 +18,12 @@
   <img align="center" alt="JSCJR-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
   <img align="center" alt="JSCJR-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
   <img align="center" alt="JSCJR-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
+
+<img align="center" alt="JSCJR-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/Azure/Azure-original.svg">
+<img align="center" alt="JSCJR-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/AWS/AWS-original.svg">
+<img align="center" alt="JSCJR-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/SQL/SQL-original.svg">
+<img align="center" alt="JSCJR-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/MySQL/MySQL-original.svg">
+<img align="center" alt="JSCJR-Csharp" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg">
 </div>
   
   ##
