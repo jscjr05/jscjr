@@ -1,2 +1,2 @@
-# jscjrpessoal
+# jscjr
 codigos pessoais desenvolvidos
