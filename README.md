@@ -31,6 +31,6 @@
   
 </div>
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jscjr05)](https://github.com/jscjr05/github-readme-stats)
+<!-- [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jscjr05)](https://github.com/jscjr05/github-readme-stats)-->
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=jscjr05&show_icons=true&theme=radical)
