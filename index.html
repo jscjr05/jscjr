@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8"/> <!-- METADADOS UTF-8 É PADRÃO DE CARRACTERES GLOBAL-->
+        <meta name="descrição" content="QUIZ INTERATIVO PARA TESTE DE CONHECIMENTOS"> <!-- META é utilizado para descrição de atributos. Ela não fecha pois ela é vazia e não tem conteúdo-->
+        <!--<meta name="author" content="QUIZ INTERATIVO PARA TESTE DE CONHECIMENTOS"> -->
+        <!--<meta name="keywords" content="QUIZ INTERATIVO PARA TESTE DE CONHECIMENTOS"> -->
+        <title> QUIZ PARA PROGRAMADORES </title> <!-- título do projeto/pagina-->
+    </head>
+    <body>
+        <header>
+            <h1>QUIZ INTERATIVO PARA TESTE DE CONHECIMENTOS DE PROGRAMADORES</h1>
+            <P>Teste seus conhecimentos e avalie conforme sua pontuação </p>
+        </header>
+        <main>
+            <!--Introdução-->
+            <section>
+                <h2>Sobre esse quiz</h2>
+                <p><strong>Este quiz</strong> foi criado para testar conhecimentos em <em>programação</em> dentro do  HTML</p> <!-- Strong = b e em=i -->
+                <p><b>Este quiz</b> foi criado para testar conhecimentos em <i>programação</i> dentro do  HTML</p>
+                <p>Você encontrará diferentes tipos de perguntas</p> <!-- abbr é abreviação -->
+                <p>Você poderá encontrar diferentes tipos de acrônimos como <abbr title = "HyperText Markup Language">HTML</abbr> e <abbr title = "Cascading Style Sheets">CSS</abbr>! <br>Desafie-se com este quiz!</br></p> <!-- br quebra a linha-->
+            </section>
+            <!--Pergunta 1: Múltipla Escolha-->
+            <section>
+                <h2>P1: Qual é a Linguagem utilizada na web e no curso?</h2>
+                <form>
+                    <input type="radio" value="Python" id="P1a" name="P1">
+                    <label for="P1a">"Python"</label><br>
+                    <input type="radio" value=" HTML" id="P1b" name="P1">
+                    <label for="P1b">"HTML"</label><br>
+                    <input type="radio" value="JAVA" id="P1c" name="P1">
+                    <label for="P1c">"JAVA"</label><br>
+                    <input type="radio" value="JAVASCRIPT" id="P1d" name="P1">
+                    <label for="P1d">"JAVASCRIPT"</label><br>
+                    <input type="radio" value="C++" id="P1e" name="P1">
+                    <label for="P1e">"C++"</label><br>
+                </form>
+            </section>
+            <!--Pergunta 2: Texto-->
+            <section>
+                <h2>P2: Na URL https://www.google.com, o trecho google.com é o_________?</h2>
+                <form>
+                    <input type="text" id="P2" name="P2" placeholder="Digite sua resposta..." ><br>
+                </form>
+            </section>
+            <!--Pergunta 3: Senha-->
+            <section>
+                <h2>P3: Escreva um exemplo de senha forte.</h2>
+                <form>
+                    <input type="password" id="P3" name="P3" placeholder="Digite sua senha..."><br>
+                </form>
+            </section>
+            <!--Pergunta 4: Data-->
+            <section>
+                <h2>P4: Quando foi lançado o HTML?</h2>
+                <form>
+                    <input type="date" id="P4" name="P4"><br>
+                </form>
+            </section>
+            <!--Pergunta 5: Seleção Múltipla-->
+            <section>
+                <h2>P5: Quais dessas tecnologias são consideradas linguagem de programação?</h2>
+                <form>
+                    <input type="checkbox" value="Python" id="P5a" name="P5">
+                    <label for="P5a">"Python"</label><br>
+                    <input type="checkbox" value=" HTML" id="P5b" name="P5">
+                    <label for="P5b">"HTML"</label><br>
+                    <input type="checkbox" value="JAVA" id="P5c" name="P5">
+                    <label for="P5c">"JAVA"</label><br>
+                    <input type="checkbox" value="JAVASCRIPT" id="P5d" name="P5">
+                    <label for="P5d">"JAVASCRIPT"</label><br>
+                    <input type="checkbox" value="CSS" id="P5e" name="P5">
+                    <label for="P5e">"CSS"</label><br>
+                </form>
+            </section>
+            <!--Pergunta 6:UpLoad de Arquivos-->
+            <section>
+                <h2>P6: Faça o upload de um arquivo contendo código HTML</h2>
+                <form>
+                    <input type="file" id="P6" name="P6"><br>
+                </form>
+            </section>
+            <!--Pergunta 7:Menu Suspenso-->
+            <section>
+                <h2>P7: Selecione o atributo do INPUT que define o seu tipo</h2>
+                <form>
+                    <select name="P7" id="P7">
+                        <option value="id">id</option>
+                        <option value="type">type</option>
+                        <option value="placeholder">placeholder</option>
+                        <option value="text">text</option>
+                    </select><br>
+                </form>
+            </section>
+            <!--Pergunta 8:Imagem-->
+            <section>
+                <h2>P8: Qual linguagem de programação é representada pelo logotipo abaixo?</h2>
+                <!-- <img src="https://pt.wikipedia.org/wiki/HTML#/media/Ficheiro:HTML5_logo_and_wordmark.jpg" alt=""> -->
+                <!--<img src="html.jpg" alt="Logotipo"><br>
+                <input type="text" id="P8" name="P8" placeholder="Digite sua resposta..."><br>
+                <img src="./Imagens/Joao.jpg" alt="Foto de Guitarra"><br>       ("./" é usado para caminhar entre as pastas/)
+                <input type="text" id="P8" name="P8" placeholder="Digite sua resposta..."><br> -->         
+                <figure>
+                    <img src="html.jpg" alt="Logotipo"><br>
+                    <figcaption>Figura 1: Logotipo de uma linguagem de Programação</figcaption>
+                </figure>
+                <input type="text" id="P8" name="P8" placeholder="Digite sua resposta..."><br>
+                <figure>
+                    <img src="./Imagens/Joao.jpg" alt="Foto de Guitarra"><br>       <!-- "./" é usado para caminhar entre as pastas-->
+                    <figcaption>Figura 2: Joao com a Guitarra</figcaption>
+                </figure>
+                <input type="text" id="P8" name="P8" placeholder="Digite sua resposta..."><br>
+            </section>
+            <!--Tabela de Pontuação-->
+            <section>
+                <h2>Tabela de Pontuação</h2>
+                <table border="5">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td> Não desista.<br>
+                        </tr>
+                        <tr>
+                            <td>3-5</td><br>
+                            <td> Continue tentando.<br>
+                        </tr>
+                        <tr>
+                            <td>6-8</td>
+                            <td> Parabéns.<br>
+                        </tr>
+                        <tr>
+                            <td>9-10</td>
+                            <td> Perfeito.<br>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Boa sorte na proxima</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>    
+            <!--Lista de Respostas-->
+            <section>
+                <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas!</summary>
+                    <ul> <!-- para listas numeradas, utilizar ol-->
+                        <li>HTML</li>
+                        <li>Domínio</li>
+                        <li>Usar caracteres, letras maiusculas e minusculas, números</li>
+                        <li>1991</li>
+                        <li>Python, Java, JavaScript</li>
+                        <li>Arquivo .html</li>
+                        <li>type</li>
+                        <li>HTML 5 e Joao com Guitarra</li>
+                    </ul>
+                </details>
+            </section>
+            <!--Formulário de Feedback-->
+            <section>
+                <h2> Nos dê o seu feedback!</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações de Contato</legend> 
+                    <label for="nome">Nome:</label>
+                    <input type ="text" id="Nome" name="nome"><br>
+
+                    <label for="email">EMail:</label>
+                    <input type ="email" id="email" name="email"><br>
+
+                    <label for="comentarios">Comentários:</label><br>
+                    <textarea id="comentarios" id="comentarios" name="comentarios" rows="4" cols="100" placeholder="Digite seu comentário..."></textarea> <br>
+                    <button onclick="alert('Feedback Enviado!')">Envie seu comentário</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            Copyright 2025 - Quiz de Programação - JOAO COLBANO
+            <br><p>&copy Copyright 2025 - Quiz de Programação - JOAO COLBANO</p>
+            <p> Para conhecer outros quizzes <a href=https://www.google.com.br target="_blank">Clique Aqui</a></p><br>
+            <p> Para me conhecer mais <a href=Biografia.html target="_blank">Clique Aqui</a></p>
+        </footer>
+    </body>
+</html>
